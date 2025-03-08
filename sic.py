@@ -3,7 +3,6 @@ Simple Interest Calculator (SIC)
 It calculates simple interest based on user input.
 '''
 
-
 print("Welcome to SIC!")
 
 # Get user inputs
@@ -18,4 +17,3 @@ total = principal + simple_interest
 # Display the result
 print(f"The simple interest is: {simple_interest}")
 print(f"Principal + Simple Interest = {total}")
-
