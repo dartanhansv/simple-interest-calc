@@ -13,6 +13,9 @@ time = float(input("Enter the time (in years): "))
 
 # Calculate simple interest
 simple_interest = (principal * rate * time) / 100
+total = principal + simple_interest
 
 # Display the result
 print(f"The simple interest is: {simple_interest}")
+print(f"Principal + Simple Interest = {total}")
+
